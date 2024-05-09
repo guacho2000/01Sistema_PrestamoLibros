@@ -1,0 +1,8 @@
+article{
+    color: black;
+    padding: 50px;
+}
+
+section .menu .btn-active{
+    background-color: #603c73;
+}

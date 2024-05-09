@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autores</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/menu-active.css">
+    <link rel="stylesheet" href="../styles/mante-libros.css">
+
+    <!--BOOTSTRAP css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--iconos-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <header class="row cabecera">
+            <div class="col-3 cabecera">
+                <button class="btn-cabecera-menu"><i class='bx bx-menu icono-cabecera'></i></button>
+            </div>
+            <div class="col-8 cabecera fst-italic fw-light">usuario@inacap.cl</div>
+            <div class="col-1 cabecera">
+                <button class="btn-cabecera-salir" id="salir" ><i class='bx bx-exit icono-cabecera' style='color:#ffffff'></i></button>
+            </div>
+        </header>
+
+        <section class="row principal">
+            <aside class="col-sm-12 col-md-3 menu">
+
+                <div class="icon-box">
+                    <img src="../media/icono.jpeg" alt="icono" class="icono" id="landingPage">
+                </div>
+                <button type="button" class="btn-menu" id="menuPrestamo"><i class='bx bxs-detail'></i>Préstamos</button>
+                <button type="submit" class="btn-menu btn-active" id="menu-autores"><i class='bx bxs-user-account' ></i>Mantenedor de Autores</button>
+                <button type="submit" class="btn-menu" id="menu-editorial"><i class='bx bxs-book-open'></i>Mantenedor de Editoriales</button>
+                <button type="submit" class="btn-menu" id="menu-libros"><i class='bx bxs-book' ></i>Mantenedor de Libros</button>
+                <button type="submit" class="btn-menu" id="menu-usuario"><i class='bx bxs-user-circle' ></i>Usuarios</button>
+                <button type="submit" class="btn-menu" id="menu-multas"><i class='bx bx-money'></i>Multas</button>
+                <button type="submit" class="btn-menu" id="menu-reportes"><i class='bx bxs-bar-chart-square'></i>Reportes</button>
+            </aside>
+            <article class="col-sm-12 col-md-9 contenido">
+                <h2 class="titulo">Autores</h2>
+                <section class="main-table">
+                    <div class="d-flex flex-row pb-5 justify-content-end">
+                        <button type="button" class="btn btn-success btn-l m-2" id="nuevo-autor">Nuevo</button>
+                        <button type="button" class="btn btn-primary btn-l m-2">Editar</button>
+                        <button type="button" class="btn btn-danger btn-l m-2">Eliminar</button>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Fecha de nacimiento</th>
+                                <th>País </th>
+                                <th>Género literario</th>
+                            </tr>
+                        </thead>
+                        <tbody class="registros-tabla">
+                            <tr>
+                                <td>Robert C.</td>
+                                <td>Martín</td>
+                                <td>10/07/1952</td>
+                                <td>Estados Unidos</td>
+                                <td>Informática</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Luis</td>
+                                <td>Joyanes </td>
+                                <td>02/12/1967</td>
+                                <td>España</td>
+                                <td>Informática</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Paul E.</td>
+                                <td>Ceruzzi</td>
+                                <td>10/02/1985</td>
+                                <td>Estados Unidos</td>
+                                <td>Computación</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Ian</td>
+                                <td>Sommerville</td>
+                                <td>22/05/1972</td>
+                                <td>Estados Unidos</td>
+                                <td>Ingeniería</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Andrew S.</td>
+                                <td>Tanenbaum</td>
+                                <td>16/03/1944</td>
+                                <td>Estados Unidos</td>
+                                <td>Informática</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+        </section>
+
+        <footer class="row piePagina">
+            <div class="col-12 fechaActual"></div>
+        </footer>
+    </div>
+
+    <script src="../JS/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.banner-box{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    min-height: 36vh;
+    background-image: url(../media/banner.jpg);
+    overflow: hidden;
+}
+
+.contenido h1{
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.buscador{
+    display: flex;
+    padding: 30px;
+}
+
+.buscador form{
+    margin: auto;
+}
+
+.buscador form input{
+    width: 500px;
+    height: 40px;
+    border: solid 2px #333;
+    border-radius:10px;
+    padding: 4px;
+}
+
+.buscador form input:focus{
+    outline: 2px solid #603c73;
+}
+
+.buscador form button{
+    background-color: #fff;
+    width: 50px;
+    border-radius: 50px;
+    border: solid 2px #333;
+    outline: none;
+}
+
+.buscador form button:hover{
+    background-color: #603c73;
+    color: white;
+}
+
+.titulo{
+    text-align: start;
+    font-size: 24px;
+    margin: 40px 10px 10px 40px;
+    border-bottom: solid 3px #603c73;
+    color: #603c73;
+}
+
+.targetas{
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    display: flex;
+    width: 17rem;   
+    margin: 0px auto ;
+}
+
+.card-body p{
+    min-height: 110px;
+}
+
+.card-body .btn-card{
+    width: 100px;
+    color: white;
+    background-color: #603c73;
+}
+
+.card-body .btn-card:hover{
+    background-color: #230a35;
+    color: white;
+}

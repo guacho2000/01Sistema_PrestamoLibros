@@ -1,0 +1,38 @@
+
+.main-table >*{
+    padding: 10px 10px;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.main-table{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 0px 32px;
+}
+
+.titulo{
+    text-align: start;
+    font-size: 24px;
+    margin-left: 40px;
+    border-bottom: solid 3px #603c73;
+    color: #603c73;
+}
+
+.registros-tabla td{
+    font-style: italic;
+    border-top: 1px solid  blueviolet;
+    padding: 2px 15px;
+
+}
+
+.resaltado{
+    background-color: #603c73;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+

@@ -1,0 +1,37 @@
+.titulo-reporte{
+    text-align: center;
+    font-size: 24px;
+    margin-left: auto;
+    border-bottom: solid 3px #603c73;
+    border-top: solid 3px #603c73;
+    font-family: cursive;
+    color: hsl(279, 31%, 34%);
+}
+
+.titulo-ingrese-fecha{
+    color: hsl(279, 31%, 34%);
+    font-family: cursive;
+
+}
+
+.titulo-2{
+    color: hsl(279, 31%, 34%);
+    font-size: 30px;
+    border-bottom: solid 3px #603c73;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tabla-multa button{
+    color: white;
+    background-color: #603c73;
+    border: 1px solid #333;
+}
+
+.tabla-multa button:hover{
+    background-color: #230a35;
+    color: white;
+    border: 1px solid #333;
+}
+
+

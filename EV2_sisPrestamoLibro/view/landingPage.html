@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/landingPage.css">
+    <link rel="stylesheet" href="../styles/menu-active.css">
+
+    <!--BOOTSTRAP css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--iconos-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <header class="row cabecera">
+            <div class="col-3 cabecera">
+                <button class="btn-cabecera-menu"><i class='bx bx-menu icono-cabecera'></i></button>
+            </div>
+            <div class="col-8 cabecera fst-italic fw-light">usuario@inacap.cl</div>
+            <div class="col-1 cabecera">
+                <button class="btn-cabecera-salir" id="salir"><i class='bx bx-exit icono-cabecera' style='color:#ffffff'></i></button>
+            </div>
+        </header>
+
+        <section class="row principal">
+            <aside class="col-sm-12 col-md-3 menu" id="menu">
+                <div class="icon-box">
+                    <img src="../media/icono.jpeg" alt="icono" class="icono" id="landingPage">
+                </div>
+
+                <button type="button" class="btn-menu" id="menuPrestamo"><i class='bx bxs-detail'></i>Préstamos</button>
+                <button type="submit" class="btn-menu" id="menu-autores"><i class='bx bxs-user-account' ></i>Mantenedor de Autores</button>
+                <button type="submit" class="btn-menu" id="menu-editorial"><i class='bx bxs-book-open'></i>Mantenedor de Editoriales</button>
+                <button type="submit" class="btn-menu" id="menu-libros"><i class='bx bxs-book' ></i>Mantenedor de Libros</button>
+                <button type="submit" class="btn-menu" id="menu-usuario"><i class='bx bxs-user-circle' ></i>Usuarios</button>
+                <button type="submit" class="btn-menu" id="menu-multas"><i class='bx bx-money'></i>Multas</button>
+                <button type="submit" class="btn-menu" id="menu-reportes"><i class='bx bxs-bar-chart-square'></i>Reportes</button>
+            </aside>
+            <article class="col-sm-12 col-md-9 contenido p-0">
+                <div class="banner-box">
+                    <h1>Biblioteca en Red</h1>
+                    <div class="buscador">
+                        <form action="">
+                            <input type="text" name="buscador" placeholder="Título, Autor o ISBN">
+                            <button><i class='bx bx-search'></i></button>
+                        </form>
+                    </div>
+                </div>
+                <section class="recursos" >
+                    <h2 class="titulo">Recursos</h2>
+                    <div class="targetas">
+                        <div class="card">
+                            <img src="../media/libros.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Catálogo de Libros</h5>
+                              <p class="card-text">Consultar catálogo de la biblioteca para agregar, modificar o eliminar el stock libros.</p>
+                              <a href="mante-libros.html" class="btn btn-card">Ir</a>
+                            </div>
+                          </div>
+    
+                          <div class="card">
+                            <img src="../media/buscar.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Buscador de Usuario</h5>
+                              <p class="card-text">Ingresar rut de usuario para obtener su información personal, últimos libros en prestamo y deudas pendientes.</p>
+                              <a href="usuarios.html" class="btn btn-card">Ir</a>
+                            </div>
+                          </div>
+    
+                          <div class="card">
+                            <img src="../media/reporte.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Generador de Reportes</h5>
+                              <p class="card-text">Obtener un listado de préstamos realizados en un dia especifico y por tipo de usuario.</p>
+                              <a href="reportes.html" class="btn btn-card">Ir</a>
+                            </div>
+                          </div>
+                    </div>
+                    
+                </section>
+                
+            </article>
+        </section>
+
+        <footer class="row piePagina">
+            <div class="col-12 fechaActual"></div>
+        </footer>
+    </div>
+
+    <script src="../JS/index.js"></script>
+</body>
+</html>

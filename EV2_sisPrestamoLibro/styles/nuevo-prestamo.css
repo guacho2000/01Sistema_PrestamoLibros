@@ -1,0 +1,81 @@
+/* Estilos adicionales para alertas de error */
+.alert.alert-danger {
+    background-color: transparent; /* Fondo transparente */
+    color: #230a35; /* Color del texto */
+    border: 2px solid #7e09b4; /* Borde delgado de color */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    font-style: italic; /* Texto en cursiva */
+    display: inline-block; /* Mostrar como bloque en línea */
+    padding: 2px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.titulo-prestamo-nuevo{
+    text-align: center;
+    font-size: 24px;
+    margin-left: auto;
+    border-bottom: solid 3px #603c73;
+    border-top: solid 3px #603c73;
+    font-family: cursive;
+    color: hsl(279, 31%, 34%);
+}
+
+
+.alert.alert-success {
+    text-align: center;
+    font-style: italic; /* Texto en cursiva */
+
+}
+
+
+
+/* Estilo personalizado para los labels dentro de .form-group */
+.form-group label {
+    display: block; /* Hacer que cada label ocupe una línea completa */
+    margin-bottom: 5px; /* Espacio inferior entre cada label */
+    font-weight: bold; /* Hacer el texto en negrita */
+    font-size: 14px; /* Tamaño de fuente */
+    font-size: 14px; /* Tamaño de fuente */
+    font-family: cursive;
+    color: hsl(279, 31%, 34%);
+}
+
+/* Estilo para los inputs dentro de .form-group */
+.form-group input {
+    width: 100%; /* Ancho del input al 100% */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el borde en el ancho total */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Estilo para los selects dentro de .form-group */
+.form-group select {
+    width: 100%; /* Ancho del select al 100% */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del select */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el borde en el ancho total */
+    font-family: cursive;
+    color: hsl(279, 31%, 34%);
+    
+}
+
+/* Estilo para los textareas dentro de .form-group */
+.form-group textarea {
+    width: 100%; /* Ancho del textarea al 100% */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del textarea */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el borde en el ancho total */
+    font-size: 14px; /* Tamaño de fuente */
+    font-style: italic;
+    border-top: 1px solid  blueviolet;
+    padding: 2px 15px;
+    
+    
+}
+
+

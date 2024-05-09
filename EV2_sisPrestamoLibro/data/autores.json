@@ -1,0 +1,52 @@
+[
+    {
+        "nombre": "Gabriel García Márquez",
+        "libros": [
+            "Cien años de soledad",
+            "El amor en los tiempos del cólera",
+            "Crónica de una muerte anunciada",
+            "La hojarasca",
+            "El coronel no tiene quien le escriba"
+        ]
+    },
+    {
+        "nombre": "Mario Vargas Llosa",
+        "libros": [
+            "La ciudad y los perros",
+            "La casa verde",
+            "Conversación en La Catedral",
+            "La tía Julia y el escribidor",
+            "Pantaleón y las visitadoras"
+        ]
+    },
+    {
+        "nombre": "Isabel Allende",
+        "libros": [
+            "La casa de los espíritus",
+            "De amor y de sombra",
+            "Eva Luna",
+            "El plan infinito",
+            "Paula"
+        ]
+    },
+    {
+        "nombre": "Julio Cortázar",
+        "libros": [
+            "Rayuela",
+            "Historias de cronopios y de famas",
+            "Los premios",
+            "Bestiario",
+            "Final del juego"
+        ]
+    },
+    {
+        "nombre": "Pablo Neruda",
+        "libros": [
+            "Veinte poemas de amor y una canción desesperada",
+            "Canto general",
+            "Los versos del capitán",
+            "Confieso que he vivido",
+            "Residencia en la tierra"
+        ]
+    }
+]

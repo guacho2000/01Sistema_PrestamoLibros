@@ -1,0 +1,122 @@
+[class*=container]{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    min-height: 100vh;
+    }
+
+
+    .row{
+        background-color: #F2F9FF;
+    }
+
+/*     [class *=col]{
+        background-color: rgb(107, 43, 226);
+        border-radius: 20px;
+        border: solid 1px rgb(255, 123, 0);
+    } */
+
+    .cabecera{
+        background-color: #230a35;
+        min-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabecera:nth-child(2){
+        justify-content: end;
+    }
+    .cabecera:nth-child(1){
+        justify-content: start;
+    }
+
+
+    [class*=btn-cabecera]{
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+    [class*=btn-cabecera i]{
+        width: 50px;
+        height: 30px;
+        border: solid 1px #333 ;
+        align-content: center;
+        border-radius: 4px;
+    }
+
+    .btn-cabecera-menu:hover{
+        background-color: #603c73;
+    }
+
+    .btn-cabecera-salir:hover{
+        background-color: red;
+    }
+
+    .icono-cabecera{
+        font-size: 24px;
+    }
+
+
+    section .menu{
+        background-color: #18173e;
+        padding: 0px;
+        display: flex;
+        flex-flow: column;
+        height: 85vh;
+        overflow: auto;
+        transition: transform .5s ease-in-out;
+    }
+
+    section .menu .icon-box{
+        display: flex;
+        padding: 16px;
+        border-bottom: 1px solid #333;
+    }
+    section .menu .icono{
+        width: 130px;
+        border-radius: 100px;
+        margin: auto;
+        border: 2px solid #230a35;
+        cursor: pointer;
+    }
+
+    section .menu .btn-menu{
+        width: 100%;
+        background-color: #18173e;
+        border: none;
+        color: white;
+        padding: 16px 24px;
+        border-bottom: 1px solid #333;
+        text-align: start;
+ 
+    }
+
+    section .menu .btn-menu:hover{
+        background-color: #603c73;
+    }
+
+    section .menu button i{
+        margin-right: 8px;
+    }
+
+    section .contenido{
+        background-color: #F2F9FF;
+        height: 85vh;
+        overflow: auto;
+    }
+
+    .piePagina{
+        min-height: 5vh;
+        background-color: #18173e;
+        text-align: center;
+        font-size: 12px;
+        align-content: center;
+    }
+
+    /* Eventos activado con JS */
+    .ocultar{
+        transform: translateX(-100vh);
+    }
+    .expandir{
+        width: 100% !important;
+    }
