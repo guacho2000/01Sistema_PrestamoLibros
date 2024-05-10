@@ -1,3 +1,4 @@
+// Inicio - Botones menu lateral
 function irlandingPage(){
   window.location.href= "../view/landingPage.html";
 }
@@ -18,8 +19,6 @@ function irAutores(){
 }
 const menuAutores = document.getElementById("menu-autores");
 menuAutores.addEventListener("click", irAutores);
-
-
 
 
 function irEditoriales(){
@@ -55,7 +54,7 @@ function irReportes(){
 }
 const menuReportes = document.getElementById("menu-reportes");
 menuReportes.addEventListener("click", irReportes);
-
+// FIN - Botones menu lateral
 
 //Función para cerrar sesión
 function cerrarSesion() {
